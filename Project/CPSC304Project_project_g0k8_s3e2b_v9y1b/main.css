@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#c7d5e0;
+    background-image: linear-gradient(#13608d, #2a475e);
+    background-repeat: no-repeat;
+    background-size: 3000px 3000px;
+}
+
+b {
+    color: white;
+}
+
+hr {
+    color: #142438;
+    border: 4px solid #142438;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.logout {
+    background-color: rgb(109, 23, 23);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 16%;
+    border-radius: 12px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.resdelButton {
+    margin-bottom: 15px;
+    background-color: #1b2838;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 12px;
+}
+
+.logout:hover {
+    opacity: 0.8;
+}
+
+.subtitle {
+    padding-left: 30px;
+}
+
+.form {
+    padding-left: 40px;
+}
+
+.radioButton {
+    padding-top: 10px;
+}
+
+.submitButton {
+    margin-bottom: 15px;
+    background-color: #1b2838;
+    color: white;
+    padding:12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    border-radius: 12px;
+}
+
+.backButton {
+    margin-bottom: 15px;
+    background-color: #1b2838;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+    border-radius: 12px;
+}
+
+.other_options {
+    margin-left: 50px;
+    overflow: visible !important;
+}
+
+.textbox {
+    width: 50%;
+    height: 200px;
+    resize: none;
+    box-sizing: border-box;
+    size: 4000;
+    background-color: #3f689b;
+    padding: 10px;
+}
+
+#the-count {
+    float: right;
+    padding: 0.1rem 0 0 0;
+    font-size: 0.875rem;
+}
+
+.collapsible {
+    background-color: #1b2838;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #142438;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #2a475e;
+}
+
+.collapsible:after {
+    content: '\25BC';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\25B2";
+}
+
+.delete {
+    background-color: #1b2838;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.delete:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.img {
+    max-width: 300px;
+    max-height: auto;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container_1 {
+    padding: 16px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uname { 
+    width: 18% !important;
+    padding: 6px 20px !important;
+    border: 1px solid black;
+    background-color: #3f689b;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #1b2838;
+    width: 80%;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color:rgb(145, 30, 30);
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+table {
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid #142438;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+.tableStyle th {
+    background-color: #1b2838;
+    color: white;
+}
+  
+.tableStyle tr:nth-child(even) {
+    background-color: #2a475e;
+}
+
+.tableStyle tr:nth-child(odd) {
+   background-color: #243c50;
+}
+
+.tableStyle tr:first-child th {
+    text-align: center;
+    background-color: #142438;
+}
